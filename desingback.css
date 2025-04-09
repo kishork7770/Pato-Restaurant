@@ -1,0 +1,594 @@
+#contentInSlider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#firstall {
+  background-repeat: no-repeat;
+  border-top: 5px solid red;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* @keyframes animate{
+  0%,100%{
+    background-image: url(../images/backimg.webp);
+  }
+  50%{
+    background-image: url(../images/backimg1.webp);
+  }
+  100%{
+    background-image: url(../images/backimg2.webp);
+  }
+} */
+
+#first-part h1 {
+  color: #ffffff;
+  font-family: "Courgette", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 200px;
+  line-height: 20px;
+}
+#first-part h2 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 90px;
+  text-align: center;
+  letter-spacing: 10px;
+  line-height: 15px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#container a {
+  color: #ec1d25;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 15px 30px;
+  font-weight: 400;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 270px;
+}
+#container :hover {
+  color: #ffffff;
+  background: #ec1d25;
+}
+i {
+  cursor: pointer;
+}
+
+#container {
+  width: device-width;
+  padding: 10px;
+  border-color: 10px soild #ec1d25;
+  text-align: center;
+}
+#logo {
+  margin-left: 110px;
+}
+
+#links a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 25px;
+}
+#links ul {
+  margin-top: 10px;
+  list-style-type: none;
+}
+ul li {
+  margin-top: 10px;
+  float: left;
+}
+#navbar {
+  justify-content: center;
+  margin: 40px 100px;
+
+  top: 30px;
+}
+#socialmedia i {
+  margin-top: 20px;
+  color: white;
+  padding: 0px 25px;
+}
+#navbar div {
+  float: left;
+}
+#Second-part {
+  padding-top: 120px;
+  padding-bottom: 105px;
+  text-align: center;
+  width: 100%;
+}
+
+#italian > p {
+  margin-left: 100px;
+}
+.italian-img > img {
+  width: 400px;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+.italian-img > img:hover {
+  transform: scale(1.1);
+}
+
+#italian h2 {
+  font-family: "Courgette";
+  font-size: 30px;
+  line-height: 1.2;
+  color: #ec1d25;
+  font-weight: 200;
+  margin-top: 50px;
+}
+#italian h1 {
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#italian p {
+  font-size: 15px;
+  font-family: "Montserrat";
+  line-height: 1.7;
+  font-weight: 400;
+  width: 513px;
+  color: #666666;
+  margin-bottom: 22px;
+}
+#italian a {
+  list-style: none;
+  color: #666666;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 12px;
+  letter-spacing: 1.7;
+  font-weight: 400;
+}
+#italian i {
+  padding-left: 10px;
+  color: black;
+  font-size: 10px;
+}
+#Third-part {
+  width: 100%;
+  background-image: url(https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg.webp);
+  text-align: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 160px 0px;
+}
+#Discover h4 {
+  text-align: center;
+  font-family: "Courgette";
+  color: red;
+  font-size: 30px;
+  line-height: 1.5;
+
+  filter: brightness(100%);
+}
+#Discover p {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 10px;
+  word-spacing: 6px;
+}
+#Platers {
+  display: flex;
+  margin-top: 77px;
+  margin-bottom: 133px;
+  padding: 0px 100px;
+}
+.foods {
+  width: 100%;
+  margin: 15px;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+.img-container {
+  overflow: hidden;
+  margin: 0%;
+  padding: 0%;
+  height: 245px;
+}
+.img-container > img:hover {
+  overflow: hidden;
+}
+
+.img-container > img:hover {
+  transform: scale(1.1);
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+
+/* img {
+  width: 100%;
+  border-radius: 8px;
+} */
+.food_text {
+  margin-top: 35px;
+}
+.food_text h4 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 3px;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.food_text p {
+  font-size: 15px;
+  font-family: "Montserrat";
+  line-height: 1.7;
+  font-weight: 400;
+  color: #666666;
+  margin: 0%;
+  margin-bottom: 20px;
+}
+.food_text a {
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+.food_text i {
+  margin: 10px;
+  color: #000000;
+}
+#our-menu {
+  background-image: url(//preview.colorlib.com/theme/pato/images/icons/pattern2.png.webp);
+  padding-top: 115px;
+  padding-bottom: 120px;
+}
+
+#our-menu h4 {
+  text-align: center;
+  font-family: "Courgette";
+  color: red;
+  font-size: 30px;
+  line-height: 1.5;
+  filter: brightness(100%);
+}
+#our-menu p {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 10px;
+  word-spacing: 6px;
+}
+#menus {
+  margin: 0px 150px;
+  display: flex;
+}
+#Lunch img {
+  width: 370px;
+  height: 492.81px;
+}
+#Lunch {
+  position: relative;
+  margin: 30px 15px;
+
+  overflow: hidden;
+}
+.lunchBtn {
+  position: absolute;
+  top: 46%;
+  left: 30%;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  opacity: 0.9;
+  letter-spacing: 3px;
+}
+#dinner img {
+  width: 370px;
+  height: 492.81px;
+}
+
+#dinner {
+  height: 493px;
+  width: 370px;
+  position: relative;
+  margin: 30px 15px;
+  overflow: hidden;
+}
+#drink-starter {
+  padding: 0%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+#drink-starter img {
+  width: 370px;
+  height: 230px;
+  /* margin-top: 30px; */
+}
+#drink {
+  position: relative;
+  margin: 0px 15px;
+  padding: 0%;
+  overflow: hidden;
+}
+#starter {
+  position: relative;
+  margin: 30px 15px;
+  padding: 0%;
+  overflow: hidden;
+}
+.our-menu-img img {
+  transition: transform 0.5s ease;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.our-menu-img img:hover {
+  transition: 0.5s ease;
+  transform: scale(1.2);
+}
+#happy-dessert {
+  display: grid;
+  height: 230px;
+  grid-template-columns: 65.5% auto;
+  margin: 0px 150px;
+  overflow: hidden;
+}
+#happy img {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+}
+#happy {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 0px 15px;
+  padding: 0%;
+}
+#happy-dessert a {
+  margin: -20px 22px;
+}
+#dessert {
+  position: relative;
+  overflow: hidden;
+}
+#dessert img {
+  width: 89%;
+  margin: 0px 15px;
+
+  height: 230px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.allspan {
+  font-family: "Courgette";
+  font-size: 30px;
+  line-height: 1.2;
+  color: #ec1d25;
+  font-weight: 200;
+  margin-top: 50px;
+}
+.allh3 {
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  line-height: 1.2;
+  color: #fff;
+}
+#upComingEvents {
+  position: relative;
+  text-align: center;
+}
+#upComingEventsHeading {
+  position: absolute;
+  top: 100px;
+  left: 680px;
+}
+#reservation {
+  background-color: #efefef;
+  height: 90vh;
+}
+#reservation h4,
+h3 {
+  text-align: center;
+  margin-top: 100px;
+}
+#reservation input {
+  text-align: left;
+  border-radius: 10px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  border: 2px solid #d9d9d9;
+  width: 250px;
+  height: 45px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#reserveImg {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 65%;
+  border-radius: 10px;
+}
+#reserveImg :hover {
+  transform: scale(1.2);
+  transition: 0.6s;
+}
+
+#people {
+  margin-bottom: 50px;
+}
+
+#bookTable {
+  margin-top: 20px;
+}
+#bookTable a {
+  background-color: #000000;
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 8px;
+  align-self: center;
+  text-align: center;
+  margin-left: 410px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+#customerSay {
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+}
+#customerSay img {
+  border-radius: 50%;
+  border: 5px solid red;
+  width: 8%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 45%;
+}
+#custSaysPara p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 890px;
+  margin-left: 20%;
+}
+.starRed {
+  color: #ec1d25;
+  margin: 0px 5px;
+}
+#sliderButton1 {
+  color: #000000;
+  background-color: #666666;
+  border-radius: 50%;
+  margin-top: 10 0px;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+#sliderButton1 :hover {
+  background-color: #ec1d25;
+}
+
+#ourVideo {
+  background-image: url(../images/ourVedioimg.webp);
+  text-align: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding: 160px 0px;
+}
+#ourVideo i {
+  background-color: white;
+  color: #222222;
+  height: 25%;
+  width: 5%;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 17px;
+  border-radius: 50%;
+  margin-top: 0px;
+}
+#signUpOuter {
+  position: relative;
+  background-image: url(../images/pattern1.png);
+  background-repeat: repeat;
+  align-items: center;
+  height: 40vh;
+}
+#signUp {
+  text-align: center;
+  position: absolute;
+  align-items: center;
+  left: 25%;
+  height: 40vh;
+}
+#signUp span {
+  margin: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 12px;
+}
+#signUp input {
+  align-items: center;
+  height: 50px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  padding: 15px;
+  position: relative;
+}
+#signUp i {
+  position: absolute;
+  top: 48%;
+  left: 71%;
+}
+#signUp button {
+  height: 40px;
+  width: 150px;
+  margin: 13px;
+  background-color: #000000;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  font-size: 12px;
+}
